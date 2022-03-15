@@ -1,6 +1,6 @@
 const express = require('express')
 const routerProductos = express.Router()
-const Productos = require('productos')
+const Productos = require('./productos')
 
 const PORT = 8080
 const statusOk = 200
@@ -72,7 +72,7 @@ routerProductos
         }
     })
 
-    .delete('/:idProduct', (req, res) => {
+    .delete('/:idProducto', (req, res) => {
         try {
             const producto = contProductos.getProductById(req.params.idProducto)
             if (producto){
