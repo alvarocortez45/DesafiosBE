@@ -1,0 +1,35 @@
+const express = require("express")
+const Products = require('./api/Productos')
+const contProductos = new Productos()
+
+const routerProductos = express.Router()
+const app = express()
+
+app.set('view engine', 'pug')
+app.set('views', './views')
+
+app.use(express.json())
+app.use(express.urlencoded({extended: true}))
+app.use('/productos', routerProductos)
+
+
+app.get('/', (req, res) => {
+    const view = 'form'
+    res.render('index', {view});
+})
+
+routerProductos
+    .get('/', (req, res) => {
+        const view = 'lista'
+        const productos = contProductos.productosAll
+        res.render('index', {productos, view});
+    })
+    .post('/', (req, res) => {
+        const prodNuevo = contProductos.saveProduct(req.body)
+        res.redirect('/');
+    })
+    
+
+const PORT = 8080
+const server = app.listen(PORT, () => console.log(`Servidor corriendo en el puerto ${PORT}`))
+server.on('error', (err) => console.log(err.message))
