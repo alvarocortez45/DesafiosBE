@@ -1,0 +1,46 @@
+h1(class="display-6 mb-5") Listado de Productos
+
+
+<a href="/" class="btn btn-primary">Nuevo producto</a>
+
+div.mt-3
+    if productos == ""
+        div(class="alert alert-warning" role="alert") Lista de productos vacía
+    else
+        table(class="table")
+            thead
+                tr
+                    th(scope="col") #
+                    th(scope="col") Nombre
+                    th(scope="col") Precio
+                    th(scope="col") Foto de producto 
+            tbody
+                each producto in productos
+                    tr
+                        th(scope="row")= producto.id
+                        td= producto.title
+                        td= producto.price 
+                        td
+                            img(src=producto.thumbnail, alt=producto.title, width="25")
+
+
+                            
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="/productos" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+
+                <li class="page-item active"><a class="page-link" href="/productos">1</a></li>
+                <li class="page-item"><a class="page-link" href="/productos">2</a></li>
+                <li class="page-item"><a class="page-link" href="/productos">3</a></li>
+
+                <li class="page-item">
+                    <a class="page-link" href="/productos" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>

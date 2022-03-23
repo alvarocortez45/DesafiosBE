@@ -1,0 +1,11 @@
+html
+    include header.pug
+    body
+        include navbar.pug
+        div.container
+            <div class="mt-5">
+                if view == 'form'
+                    include form.pug
+                else if view == 'lista'
+                    include list.pug
+            </div>

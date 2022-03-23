@@ -1,5 +1,5 @@
 const express = require("express")
-const Products = require('./api/Productos')
+const Productos = require('../api/productos')
 const contProductos = new Productos()
 
 const routerProductos = express.Router()
