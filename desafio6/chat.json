@@ -1,0 +1,26 @@
+[
+  {
+    "autor": "chicho@gmail.com",
+    "texto": "Hola",
+    "fyh": "27/3/2022 17:39:17",
+    "id": 1
+  },
+  {
+    "autor": "tito@gmail.com",
+    "texto": "Todo bien?",
+    "fyh": "27/3/2022 17:46:20",
+    "id": 2
+  },
+  {
+    "autor": "cacho@gmail.com",
+    "texto": "Todo bien por suerte, uds?",
+    "fyh": "27/3/2022 17:46:30",
+    "id": 3
+  },
+  {
+    "autor": "tato@gmail.com",
+    "texto": "Ey!",
+    "fyh": "29/3/2022 21:24:39",
+    "id": 4
+  }
+]
