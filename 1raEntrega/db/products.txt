@@ -1,0 +1,32 @@
+[
+  {
+        "id": 26,
+        "timestamp": "05/04/2022 7:20:02 PM",
+        "nombre": "Wilson Blade 98",
+        "descripcion": "raqueta",
+        "codigo": "zxccvb123",
+        "foto": "foto",
+        "precio": "$52000",
+        "stock": "1"
+  },
+  {
+        "id": 27,
+        "timestamp": "05/04/2022 7:20:02 PM",
+        "nombre": "Head Radical MP",
+        "descripcion": "raqueta",
+        "codigo": "asdfgg123",
+        "foto": "foto",
+        "precio": "$47000",
+        "stock": "3"
+  },
+  {
+        "id": 29,
+        "timestamp": "05/04/2022 7:20:02 PM",
+        "nombre": "Head Extreme Pro",
+        "descripcion": "raqueta",
+        "codigo": "qweqweq123",
+        "foto": "foto",
+        "precio": "$50000",
+        "stock": "3"
+  }
+]
