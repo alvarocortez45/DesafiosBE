@@ -14,13 +14,13 @@ function loadMessages(data) {
                         <span id="chatName" class="direct-chat-name pull-right">${elem.email}</span>
                     <span id= "chatDate" class="direct-chat-timestamp pull-left">${elem.date}</span>
                 </div>
-                        <div id="chatText" class="direct-chat-text">${elem.msg}</div>
+                        <div id="chatText" class="direct-chat-text">${elem.text}</div>
                     `)
     }).join(" ");
     document.getElementById('messages').innerHTML = html;
 }
 
-document.getElementById('formData').addEventListener('submit', (e)=> {
+document.getElementById('frm').addEventListener('submit', (e)=> {
     e.preventDefault()
     agregarMensaje()
 })
@@ -40,7 +40,7 @@ async function loadProds(listProd) {
     if (listProd.length === 0){
         htmlProd = `No se encontraron Productos`
     }else{
-        htmlProd = ejs.render(tableList, {listProd})
+        htmlProd = ejs.render(tableList, {productsList})
             
     }
     document.getElementById('NuevaTabla').innerHTML = htmlProd;
