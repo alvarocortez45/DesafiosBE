@@ -4,7 +4,7 @@
         <thead>
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">Title</th>
+                <th scope="col">Name</th>
                 <th scope="col">Price</th>
                 <th scope="col">Imagen</th>
             </tr>
@@ -13,9 +13,9 @@
             <% productsList.forEach(prod => { %>
                 <tr>
                     <td> <%=prod.id %> </td>                
-                    <td> <%=prod.title %> </td>
+                    <td> <%=prod.name %> </td>
                     <td> <%=prod.price %> </td>
-                    <td><img src="<%=prod.url %>" alt="<%=prod.title %>" width="25"></td>
+                    <td><img src="<%=prod.url %>" alt="<%=prod.name %>" width="25"></td>
                 </tr>
             <% }) %>
         </tbody>
