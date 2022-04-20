@@ -1,0 +1,60 @@
+{ 
+    "_id" : ObjectId("6254b363b1d07e9632ebb5e8"), 
+    "nombre" : "Head Extreme Pro", 
+    "tipo" : "raqueta", 
+    "precio" : 1000.0, 
+    "imagen" : "img", 
+    "stock" : 2.0, 
+    "quantity" : 0.0, 
+    "total" : null
+}
+{ 
+    "_id" : ObjectId("6254b363b1d07e9632ebb5e9"), 
+    "nombre" : "Head Radical Pro", 
+    "tipo" : "raqueta", 
+    "precio" : 1700.0, 
+    "imagen" : "img", 
+    "stock" : 5.0, 
+    "quantity" : 0.0, 
+    "total" : null
+}
+{ 
+    "_id" : ObjectId("6254b363b1d07e9632ebb5ea"), 
+    "nombre" : "Head Speed MP", 
+    "tipo" : "raqueta", 
+    "precio" : 2500.0, 
+    "imagen" : "img", 
+    "stock" : 3.0, 
+    "quantity" : 0.0, 
+    "total" : null
+}
+{ 
+    "_id" : ObjectId("6254b363b1d07e9632ebb5eb"), 
+    "nombre" : "Wilson Blade 98", 
+    "tipo" : "raqueta", 
+    "precio" : 4000.0, 
+    "imagen" : "img", 
+    "stock" : 2.0, 
+    "quantity" : 0.0, 
+    "total" : null
+}
+{ 
+    "_id" : ObjectId("6254b363b1d07e9632ebb5ec"), 
+    "nombre" : "Wilson Clash 100", 
+    "tipo" : "raqueta", 
+    "precio" : 5000.0, 
+    "imagen" : "img", 
+    "stock" : 1.0, 
+    "quantity" : 0.0, 
+    "total" : null
+}
+{ 
+    "_id" : ObjectId("6254b4b1b1d07e9632ebb5ed"), 
+    "nombre" : "Babolat Pure Drive", 
+    "tipo" : "raqueta", 
+    "precio" : 5000.0, 
+    "imagen" : "img", 
+    "stock" : 2.0, 
+    "quantity" : 0.0, 
+    "total" : null
+}

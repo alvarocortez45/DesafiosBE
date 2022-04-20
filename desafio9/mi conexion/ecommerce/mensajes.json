@@ -1,0 +1,18 @@
+{ 
+    "_id" : ObjectId("62549edbbc15dd3b467941bb"), 
+    "mail" : "alvaro@gmail", 
+    "mensaje" : "Buenas", 
+    "date" : "11/04/2022 18:36:36"
+}
+{ 
+    "_id" : ObjectId("62549f81bc15dd3b467941bc"), 
+    "mail" : "cacho@gmail", 
+    "mensaje" : "como va?", 
+    "date" : "11/04/2022 18:36:36"
+}
+{ 
+    "_id" : ObjectId("62549f81bc15dd3b467941bd"), 
+    "mail" : "tito@gmail", 
+    "mensaje" : "Bien y uds?", 
+    "date" : "11/04/2022 18:46:36"
+}
